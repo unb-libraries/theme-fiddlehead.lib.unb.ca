@@ -1,6 +1,11 @@
 /* THEME OPTIONS ************************** */
 
 /* GLOBAL ********************************* */
+body {
+  background: #fff url(../img/fh-bg.jpg) repeat-y top center;
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* ----- Body ------------------------ */
 /* ----- Custom Fonts ---------------- */
 /* ----- Text ------------------------ */
@@ -10,13 +15,136 @@
 /* ----- Forms ----------------------- */
 
 /* HEADER ********************************* */
+body.logged-in .navbar-fixed-top {
+  margin-top: 30px;
+}
 /* ----- Header Region --------------- */
+
+#overlay-container {
+  margin-top: 60px;
+}
+
+#header {
+  background: #666;
+  margin-top: 43px;
+  margin-bottom: 0;
+}
+
+#name-and-slogan > div {
+  display: none;
+}
+
+#name-and-slogan {
+  height: 83px;
+  background: url(../img/fh-logo.jpg) no-repeat left center;
+}
 /* ----- Search Box ------------------ */
 /* ----- Logo ------------------------ */
 /* ----- Site Title and Slogan ------- */
 
 /* NAVIGATION ***************************** */
+#top-nav {
+  background: url(../img/fh-bg.jpg) no-repeat top center;
+  background-size: 100%;
+  font-weight: bold;
+  color: #40681b;
+}
+
+#top-nav-wrapper {
+  background: rgba(255,255,255,0.5);
+}
+
+#top-nav, #top-nav li {
+  padding: 0;
+}
+
+#top-nav a {
+  padding: 8px 5px 10px 5px;
+  color: #40681b;
+}
+
+#top-nav ul.nav {
+  padding-top: 5px;
+  float: left;
+  font-size: 14px;
+}
+
+.region-top-nav .block {
+  display: inline-block;
+}
+
+.region-top-nav .block p {
+  margin-bottom: 0;
+}
+
+#top-nav .facebook, #top-nav .twitter {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#top-nav .facebook {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#top-nav form {
+  position: relative;
+  top: -4px;
+  margin-right: 5px;
+}
+
 /* ----- Main Navigation ------------- */
+.navbar .nav li.dropdown>.dropdown-toggle .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+#main-menu {
+  background: #666;
+  margin-bottom: 40px;
+}
+
+.front #main-menu {
+  margin-bottom: 20px;
+}
+
+#main-menu .navbar {
+  margin-bottom: 0;
+}
+
+#main-menu .navbar-inner {
+  padding-left: 0;
+  padding-right: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+#main-nav > ul > li > a {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+#main-nav > ul > li.active > a,
+#main-nav > ul > li.open > a {
+  color: #666;
+  background: #d7ebb1;
+}
+
+#main-nav > ul > li > ul > li > a:hover,
+#main-nav > ul > li > ul > li.active > a {
+  background: #666;
+}
+
 /* ----- Secondary Navigation -------- */
 /* ----- Breadcrumbs ----------------- */
 /* ----- First Sidebar Menu Blocks --- */
@@ -25,11 +153,118 @@
 /* ----- Pager Nav ------------------- */
 
 /* SIDEBARS ******************************* */
+#block-views-current-issue-block-1,
+#block-views-current-issue-block-2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3em;
+  background: rgba(255,255,255,0.6);
+  padding: 20px;
+}
+
+#block-views-current-issue-block-1 a,
+#block-views-current-issue-block-2 a {
+  color: #40681b;
+}
+
+#block-views-current-issue-block-1 .views-field-field-image,
+#block-views-current-issue-block-2 .views-field-field-image {
+  margin-bottom: 20px;
+}
 
 /* FOOTER ********************************* */
 /* ----- Fat Footer ------------------ */
+#footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 0;
+  background: #666;
+  color: #fff;
+}
+
+#footer .row {
+  margin-bottom: 20px;
+}
+
+#footer a {
+  color: #e0e0e0;
+}
+
+#footer li, #footer ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#footer li.main {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#footer .disclaimer {
+  font-style: italic;
+}
+
+#footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  background: #fff;
+}
 
 /* CONTENT ******************************** */
+
+#featurebar .block {
+  margin-bottom: 0;
+}
+
+#main {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+#main-content a {
+  color: #40681b;
+}
+
+#content-head {
+  margin: 0;
+}
+
+.carousel-caption {
+  background: rgba(255,255,255,0.75);
+}
+
+.carousel-caption p, .carousel-caption h4 {
+  color: #000;
+}
+
+#myCarousel > p {
+  margin-bottom: 0;
+}
+
+#myCarousel {
+  margin-bottom: 10px;
+}
+
+#myCarousel img {
+  height: 350px;
+  width: 100%;
+}
+
+#content-top .block {
+  margin-bottom: 0;
+}
+
+#main-wrapper {
+  background: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#sidebar-second {
+  padding-top: 10px;
+}
 
 /* VIEWS ********************************** */
 /* ----- Search Results -------------- */
