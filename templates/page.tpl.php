@@ -95,7 +95,7 @@
 <?php endif; ?>
 
 
-<?php if ($page['fullwidth']): ?>
+<?php if (isset($page['fullwidth'])): ?>
   <div id="fullwidth" class="row-fluid fullwidth">
     <div class="container"> <?php print render($page['fullwidth']); ?> </div>
   </div>

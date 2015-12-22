@@ -2,10 +2,21 @@
 
 /* GLOBAL ********************************* */
 body {
-  background: #fff url(../img/fh-bg.jpg) repeat-y top center;
+  background: #fff url(../img/fh-bg2.jpg) repeat-y top center;
   background-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body.toolbar-drawer {
+  padding-top: 30px;
+}
+
+#toolbar {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 /* ----- Body ------------------------ */
 /* ----- Custom Fonts ---------------- */
 /* ----- Text ------------------------ */
@@ -25,7 +36,8 @@ body.logged-in .navbar-fixed-top {
 }
 
 #header {
-  background: #666;
+  background: rgba(102,102,102,0.75);
+/*#666;*/
   margin-top: 43px;
   margin-bottom: 0;
 }
@@ -35,8 +47,8 @@ body.logged-in .navbar-fixed-top {
 }
 
 #name-and-slogan {
-  height: 83px;
-  background: url(../img/fh-logo.jpg) no-repeat left center;
+  height: 34px;
+  background: url(../img/fh-logo2.png) no-repeat left center;
 }
 /* ----- Search Box ------------------ */
 /* ----- Logo ------------------------ */
@@ -44,14 +56,19 @@ body.logged-in .navbar-fixed-top {
 
 /* NAVIGATION ***************************** */
 #top-nav {
-  background: url(../img/fh-bg.jpg) no-repeat top center;
+  background: url(../img/fh-bg2.jpg) no-repeat top center;
   background-size: 100%;
   font-weight: bold;
+/*
   color: #40681b;
+*/
+  color: #5b6a45;
 }
 
 #top-nav-wrapper {
+/*
   background: rgba(255,255,255,0.5);
+*/
 }
 
 #top-nav, #top-nav li {
@@ -60,7 +77,10 @@ body.logged-in .navbar-fixed-top {
 
 #top-nav a {
   padding: 8px 5px 10px 5px;
+/*
   color: #40681b;
+*/
+  color: #5b6a45;
 }
 
 #top-nav ul.nav {
@@ -103,7 +123,8 @@ body.logged-in .navbar-fixed-top {
 }
 
 #main-menu {
-  background: #666;
+  background: rgba(102,102,102,0.75);
+/*#666;*/
   margin-bottom: 40px;
 }
 
@@ -137,7 +158,8 @@ body.logged-in .navbar-fixed-top {
 #main-nav > ul > li.active > a,
 #main-nav > ul > li.open > a {
   color: #666;
-  background: #d7ebb1;
+/*  background: #d7ebb1; */
+  background: #c8ccbd;
 }
 
 #main-nav > ul > li > ul > li > a:hover,
@@ -165,7 +187,10 @@ body.logged-in .navbar-fixed-top {
 
 #block-views-current-issue-block-1 a,
 #block-views-current-issue-block-2 a {
+/*
   color: #40681b;
+*/
+  color: #5b6a45;
 }
 
 #block-views-current-issue-block-1 .views-field-field-image,
@@ -179,7 +204,8 @@ body.logged-in .navbar-fixed-top {
   padding-top: 25px;
   padding-bottom: 25px;
   margin-bottom: 0;
-  background: #666;
+  background: rgba(102,102,102,0.75);
+/*#666;*/
   color: #fff;
 }
 
@@ -224,7 +250,10 @@ body.logged-in .navbar-fixed-top {
 }
 
 #main-content a {
+/*
   color: #40681b;
+*/
+  color: #5b6a45;
 }
 
 #content-head {
