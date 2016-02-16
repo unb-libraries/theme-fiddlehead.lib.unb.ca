@@ -203,14 +203,19 @@ body.logged-in .navbar-fixed-top {
 #footer {
   padding-top: 25px;
   padding-bottom: 25px;
+  margin-top: 0;
   margin-bottom: 0;
-  background: rgba(102,102,102,0.75);
-/*#666;*/
   color: #fff;
+  background: url(../img/fh-bg.jpg) repeat-y top center;
+}
+
+#footer-wrapper {
+  padding-top: 25px;
+  background: rgba(102,102,102,0.75);
 }
 
 #footer .row {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 #footer a {

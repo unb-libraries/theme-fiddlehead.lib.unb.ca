@@ -262,8 +262,10 @@
 <!-- /#main, /#main-wrapper -->
 <?php if ($page['footer']): ?>
 <div id="footer" class="clearfix site-footer" role="contentinfo">
-  <div class="container">
-    <div id="footer-content" class="row-fluid footer-content"> <?php print render($page['footer']); ?> </div>
+  <div id="footer-wrapper">
+    <div class="container">
+      <div id="footer-content" class="row-fluid footer-content"> <?php print render($page['footer']); ?> </div>
+    </div>
   </div>
 </div>
 <!-- /#footer -->
