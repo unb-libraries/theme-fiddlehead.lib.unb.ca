@@ -111,7 +111,7 @@ body.logged-in .navbar-fixed-top {
 
 #main-menu {
   background: rgba(102,102,102,0.75);
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .front #main-menu {
@@ -235,7 +235,7 @@ body.logged-in .navbar-fixed-top {
 }
 
 #main {
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 0;
 }
 
@@ -331,4 +331,15 @@ body.logged-in .navbar-fixed-top {
 
 /* MEDIA QUERIES ************************* */
 /* ----- Responsive ------------------ */
+@media (max-width: 767px) {
+  #footer-bottom {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #footer-bottom .span4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
 /* ----- Print ----------------------- */
