@@ -332,14 +332,38 @@ body.logged-in .navbar-fixed-top {
 /* MEDIA QUERIES ************************* */
 /* ----- Responsive ------------------ */
 @media (max-width: 767px) {
+  body.html {
+    background-size: auto;
+    background-attachment: fixed;
+  }
+
+  #footer {
+    background: transparent;
+  }
+
   #footer-bottom {
     padding-top: 0;
     padding-bottom: 0;
+    margin-bottom: 25px;
   }
 
   #footer-bottom .span4 {
     margin-top: 1em;
     margin-bottom: 1em;
+  }
+
+  /* override Open Framework footer block width */
+  #footer-content .block {
+    width: 100%;
+  }
+
+  #footer-content > div {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  #block-block-6 .span8 {
+    display: none;
   }
 }
 /* ----- Print ----------------------- */
