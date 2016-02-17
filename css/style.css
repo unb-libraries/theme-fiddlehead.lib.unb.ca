@@ -37,7 +37,6 @@ body.logged-in .navbar-fixed-top {
 
 #header {
   background: rgba(102,102,102,0.75);
-/*#666;*/
   margin-top: 43px;
   margin-bottom: 0;
 }
@@ -59,16 +58,7 @@ body.logged-in .navbar-fixed-top {
   background: url(../img/fh-bg.jpg) no-repeat top center;
   background-size: 100%;
   font-weight: bold;
-/*
-  color: #40681b;
-*/
   color: #5b6a45;
-}
-
-#top-nav-wrapper {
-/*
-  background: rgba(255,255,255,0.5);
-*/
 }
 
 #top-nav, #top-nav li {
@@ -77,9 +67,6 @@ body.logged-in .navbar-fixed-top {
 
 #top-nav a {
   padding: 8px 5px 10px 5px;
-/*
-  color: #40681b;
-*/
   color: #5b6a45;
 }
 
@@ -124,7 +111,6 @@ body.logged-in .navbar-fixed-top {
 
 #main-menu {
   background: rgba(102,102,102,0.75);
-/*#666;*/
   margin-bottom: 40px;
 }
 
@@ -158,7 +144,6 @@ body.logged-in .navbar-fixed-top {
 #main-nav > ul > li.active > a,
 #main-nav > ul > li.open > a {
   color: #666;
-/*  background: #d7ebb1; */
   background: #c8ccbd;
 }
 
