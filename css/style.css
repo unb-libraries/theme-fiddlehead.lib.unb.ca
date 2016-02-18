@@ -335,6 +335,19 @@ body.logged-in .navbar-fixed-top {
     background-attachment: fixed;
   }
 
+  #main-wrapper {
+    background: transparent;
+    padding-bottom: 0;
+  }
+
+  #content {
+    margin-bottom: 25px;
+  }
+
+  #content, #sidebar-second {
+    background: #fff;
+  }
+
   .sidebar, .main .block {
     margin-bottom: 0;
   }
@@ -354,9 +367,13 @@ body.logged-in .navbar-fixed-top {
     margin-bottom: 1em;
   }
 
-  /* override Open Framework footer block width */
-  #footer-content .block {
+  /* override Open Framework footer & sidebar block width */
+  #footer-content .block, #sidebar-second .block {
     width: 100%;
+  }
+
+  #sidebar-second .block {
+    padding: 5px 0;
   }
 
   #footer-content > div {
