@@ -170,6 +170,10 @@ body.logged-in .navbar-fixed-top {
   padding: 20px;
 }
 
+#block-views-sidebar-images-block {
+  text-align: center;
+}
+
 #block-views-current-issue-block-1 a,
 #block-views-current-issue-block-2 a {
   color: #5b6a45;
@@ -329,6 +333,10 @@ body.logged-in .navbar-fixed-top {
   body.html {
     background-size: auto;
     background-attachment: fixed;
+  }
+
+  .sidebar, .main .block {
+    margin-bottom: 0;
   }
 
   #footer {
