@@ -346,8 +346,11 @@ body.logged-in .navbar-fixed-top {
 
 @media (max-width: 767px) {
   body.html {
+    background: #fff;
+/*
     background-size: auto;
     background-attachment: fixed;
+*/
   }
 
   #main-wrapper {
