@@ -358,6 +358,11 @@ body.logged-in .navbar-fixed-top {
     padding-bottom: 0;
   }
 
+  #name-and-slogan {
+    background: url(../img/fh-logo-small.png) no-repeat center center;
+    padding-left: 0;
+  }
+
   #featurebar {
     padding-bottom: 1em;
   }
