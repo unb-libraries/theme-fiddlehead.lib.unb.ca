@@ -367,6 +367,10 @@ body.logged-in .navbar-fixed-top {
     padding-bottom: 1em;
   }
 
+  #myCarousel .item img {
+    height: 100%;
+  }
+
   #content {
     margin-bottom: 25px;
   }
