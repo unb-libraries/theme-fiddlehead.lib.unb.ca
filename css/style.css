@@ -334,11 +334,11 @@ body.logged-in .navbar-fixed-top {
 /* MEDIA QUERIES ************************* */
 /* ----- Responsive ------------------ */
 @media (max-width: 979px) {
-  #footer .span4, #footer .span8  {
+  #footer .span4, #footer .span8, #footer .span3  {
     width: 100%;
   }
 
-  #footer .span4 {
+  #footer .span4, #footer .span3 {
     margin-left: 0;
   }
 
@@ -402,7 +402,7 @@ body.logged-in .navbar-fixed-top {
     margin-bottom: 25px;
   }
 
-  #footer-bottom .span4 {
+  #footer-bottom .span3 {
     margin-top: 1em;
     margin-bottom: 1em;
   }
