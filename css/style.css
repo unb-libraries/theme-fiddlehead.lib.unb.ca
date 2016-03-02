@@ -270,7 +270,6 @@ body.logged-in .navbar-fixed-top {
 }
 
 #myCarousel img {
-  height: 350px;
   width: 100%;
 }
 
@@ -341,6 +340,16 @@ body.logged-in .navbar-fixed-top {
 
   #footer .span4 {
     margin-left: 0;
+  }
+
+  #featurebar [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
 }
 
