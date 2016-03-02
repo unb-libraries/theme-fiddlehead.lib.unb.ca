@@ -288,13 +288,13 @@ body.logged-in .navbar-fixed-top {
   padding-top: 10px;
 }
 
-.node-issue .field-name-field-image, .node-article .field-name-field-image {
+.node-issue .field-name-field-image, .node-article .field-name-field-image, .node-podcast .field-name-field-image-podcast {
   float: left;
   margin-right: 1em;
   margin-bottom: 1em;
 }
 
-.node-issue ul.links, .node-article ul.links, .node-article .field-name-field-tags {
+.node-issue ul.links, .node-article ul.links, .node-article .field-name-field-tags, .node-podcast .field-name-field-audio {
   clear: both;
   display: block;
 }
