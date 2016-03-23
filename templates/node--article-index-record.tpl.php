@@ -83,7 +83,9 @@
   $wrapper = entity_metadata_wrapper('node', $node);
   $issue = $wrapper->field_issue->value();
   $issue_wrapper = entity_metadata_wrapper('node', $issue);
-  $img = $issue_wrapper->field_image->value();
+  if(isset($issue_wrapper->field_image)) {
+    $img = $issue_wrapper->field_image->value();
+  }
 ?>
   <?php if (!$page): ?>
   <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
@@ -93,11 +95,13 @@
   <div class="submitted"> <?php print $submitted; ?> </div>
   <?php endif; ?>
   <div class="content"<?php print $content_attributes; ?>>
+  <?php if($vars['view_mode'] == 'default' && isset($img)): ?>
   <?php print l(theme_image(array('path' => $img['uri'], 'attributes' => array('class' => 'article-index-cover'))), 'node/' . $issue_wrapper->nid->value(), array('absolute' => TRUE, 'html' => TRUE)); ?>
-  <div class="field">
+    <div class="field">
       <div class="field-label">Issue:&nbsp;</div>
       <div class="field-items"><div class="field-item"><?php print l($issue_wrapper->title->value(), 'node/' . $issue_wrapper->nid->value()); ?></div></div>
     </div>
+   <?php endif; ?>
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
