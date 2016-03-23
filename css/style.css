@@ -302,6 +302,12 @@ body.logged-in .navbar-fixed-top {
   clear: both;
 }
 
+.article-index-cover {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
 /* VIEWS ********************************** */
 
 .view-frontpage article h2, .view-display-id-page_1 article h2 {
