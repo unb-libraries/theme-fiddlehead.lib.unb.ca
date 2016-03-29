@@ -384,6 +384,10 @@ body.logged-in .navbar-fixed-top {
 */
   }
 
+  #header {
+    margin-top: 25px;
+  }
+
   #main-wrapper {
     background: transparent;
     padding-bottom: 0;
@@ -400,6 +404,10 @@ body.logged-in .navbar-fixed-top {
 
   #myCarousel .item img {
     height: 100%;
+  }
+
+  .carousel-caption {
+    background: #eee;
   }
 
   #content {
