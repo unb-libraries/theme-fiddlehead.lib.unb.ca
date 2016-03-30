@@ -390,10 +390,6 @@ body.logged-in .navbar-fixed-top {
 @media (max-width: 767px) {
   body.html {
     background: #fff;
-/*
-    background-size: auto;
-    background-attachment: fixed;
-*/
   }
 
   #header {
@@ -449,6 +445,14 @@ body.logged-in .navbar-fixed-top {
     float: none;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #main-nav ul li a:hover {
+    background: #aaa;
+  }
+
+  #main-nav ul li:nth-child(2) {
+    display: none;
   }
 
   #featurebar {
