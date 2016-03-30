@@ -357,11 +357,11 @@ body.logged-in .navbar-fixed-top {
 /* ----- Responsive ------------------ */
 
 @media (min-width: 767px) {
-  #main-nav ul li:nth-last-child(1),
-  #main-nav ul li:nth-last-child(2),
-  #main-nav ul li:nth-last-child(3),
-  #main-nav ul li:nth-last-child(4),
-  #main-nav ul li:nth-last-child(5)
+  #main-nav > ul > li:nth-last-child(1),
+  #main-nav > ul > li:nth-last-child(2),
+  #main-nav > ul > li:nth-last-child(3),
+  #main-nav > ul > li:nth-last-child(4),
+  #main-nav > ul > li:nth-last-child(5)
   {
     display: none;
   }
@@ -451,7 +451,7 @@ body.logged-in .navbar-fixed-top {
     background: #aaa;
   }
 
-  #main-nav ul li:nth-child(2) {
+  #main-nav > ul > li:nth-child(2) {
     display: none;
   }
 
