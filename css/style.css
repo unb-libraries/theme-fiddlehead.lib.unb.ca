@@ -235,7 +235,10 @@ body.logged-in .navbar-fixed-top {
 
 .page-stop-look-listen-all #page-title,
 .page-stop-look-listen-radio-fiddlehead #page-title,
-.page-stop-look-listen-music #page-title {
+.page-stop-look-listen-music #page-title,
+.page-stop-look-listen-whats-up #page-title,
+.page-stop-look-listen-visual-art #page-title,
+.page-stop-look-listen-books #page-title {
   display: none;
 }
 
