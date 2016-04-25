@@ -320,11 +320,21 @@ body.logged-in .navbar-fixed-top {
 
 /* VIEWS ********************************** */
 
-.view-frontpage article h2, .view-display-id-page_1 article h2 {
+.view-frontpage article h2, .view-display-id-page_1 article h2,
+.view-stop-look-listen- article h2,
+.view-non-fiction article h2,
+.view-fiction article h2,
+.view-poetry article h2
+{
   margin-top: 0;
 }
 
-.view-frontpage article, .view-display-id-page_1 article {
+.view-frontpage article, .view-display-id-page_1 article,
+.view-stop-look-listen- article,
+.view-non-fiction article,
+.view-fiction article,
+.view-poetry article
+{
   padding-bottom: 15px;
   margin-bottom: 15px;
   border-bottom: 1px solid #d0d0d0;
