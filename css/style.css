@@ -338,7 +338,8 @@ body.logged-in .navbar-fixed-top {
 .view-stop-look-listen- article,
 .view-non-fiction article,
 .view-fiction article,
-.view-poetry article
+.view-poetry article,
+.page-stop-look-listen .view-header
 {
   padding-bottom: 15px;
   margin-bottom: 15px;
