@@ -18,6 +18,11 @@ body.toolbar-drawer {
 }
 
 /* ----- Body ------------------------ */
+.node-page img.media-image {
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
 /* ----- Custom Fonts ---------------- */
 /* ----- Text ------------------------ */
 /* ----- Links ----------------------- */
