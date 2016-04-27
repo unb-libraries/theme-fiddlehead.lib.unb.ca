@@ -84,7 +84,7 @@
   <?php endif; ?>
   <?php print render($title_suffix); ?>
   <?php if ($display_submitted): ?>
-  <div class="submitted"> <?php print $submitted; ?> </div>
+  <div class="submitted">Posted on <?php print date( "F j, Y",$node->created); ?></div>
   <?php endif; ?>
   <div class="content"<?php print $content_attributes; ?>>
     <?php
