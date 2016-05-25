@@ -17,6 +17,10 @@ body.toolbar-drawer {
   box-shadow: none;
 }
 
+.media-float-left {
+  float: left;
+}
+
 /* ----- Body ------------------------ */
 .node-page img.media-image {
   margin-right: 1em;
