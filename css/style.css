@@ -320,7 +320,11 @@ body.logged-in .navbar-fixed-top {
   margin-bottom: 1em;
 }
 
-.node-issue ul.links, .node-article ul.links, .node-article .field-name-field-tags, .node-podcast .field-name-field-audio {
+.node-issue ul.links, .node-article ul.links {
+  clear: both;
+}
+
+.node-article .field-name-field-tags, .node-podcast .field-name-field-audio {
   clear: both;
   display: block;
 }
