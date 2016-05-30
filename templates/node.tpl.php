@@ -96,6 +96,8 @@
   </div>
   <?php
     // remove readmore link
+if( $type != 'article' ) {
     unset($content['links']['node']['#links']['node-readmore']);
+}
   ?>
   <?php print render($content['links']); ?> <?php print render($content['comments']); ?> </article>
