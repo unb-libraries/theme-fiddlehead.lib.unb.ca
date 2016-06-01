@@ -148,6 +148,7 @@ body.logged-in .navbar-fixed-top {
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
+  filter: none;
 }
 
 #main-nav > ul > li > a {
