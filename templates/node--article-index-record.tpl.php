@@ -95,7 +95,7 @@
   <div class="submitted"> <?php print $submitted; ?> </div>
   <?php endif; ?>
   <div class="content"<?php print $content_attributes; ?>>
-  <?php if($vars['view_mode'] == 'default' && isset($img)): ?>
+  <?php if($view_mode == 'full' && isset($img)): ?>
   <?php print l(theme_image(array('path' => $img['uri'], 'attributes' => array('class' => 'article-index-cover'))), 'node/' . $issue_wrapper->nid->value(), array('absolute' => TRUE, 'html' => TRUE)); ?>
     <div class="field">
       <div class="field-label">Issue:&nbsp;</div>
